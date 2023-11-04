@@ -27,10 +27,14 @@ function LandingPage() {
 
         {/* </div> */}
 
-        <div className="hidden min-w-[19%]  justify-between items-center max-phone:flex lg:flex">
-          <a href="#" className="button">Log In</a>
-          <a href="#" className="button">Sign In</a>
-        </div>
+        <ul className="hidden min-w-[19%]  justify-between items-center max-phone:flex lg:flex">
+          <li>
+            <a href="#" className="button">Log In</a>
+          </li>
+          <li>
+            <a href="#" className="button">Sign In</a>
+          </li>
+        </ul>
 
       </nav>
     
