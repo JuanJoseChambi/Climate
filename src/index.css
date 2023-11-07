@@ -9,4 +9,7 @@
     .button{
         @apply bg-blue-night text-white py-2 px-8 rounded-full text-sm font-light shadow-sm font-semibold shadow-blue-light/100
     }
+    .transitionColor{
+        @apply transition-colors duration-500
+    }
 }

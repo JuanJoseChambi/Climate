@@ -16,6 +16,9 @@ export default {
       boxShadowColor:{
         "blue-light":"#31759C",
         "blue-night":"#061A43"
+      },
+      textColor:{
+        "blue-light":"#31759C",
       }
 
     },

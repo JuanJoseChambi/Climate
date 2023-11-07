@@ -14,13 +14,13 @@ function LandingPage() {
         {/* <div className="">   Para un menu Responsive  */}
 
           <ul className="hidden justify-around items-center font-bold w-[40%] sm:flex">
-            <li>
+            <li className="hover:text-blue-light transitionColor">
               <a href="#">Ministerios</a>
             </li>
-            <li>
+            <li className="hover:text-blue-light transitionColor">
               <a href="#">Pastores</a>
             </li>
-            <li>
+            <li className="hover:text-blue-light transitionColor">
               <a href="#">Horarios</a>
             </li>
           </ul>
