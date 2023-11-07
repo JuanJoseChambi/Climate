@@ -7,8 +7,8 @@ function LandingPage() {
       
       <nav className="area h-20 flex justify-between items-center text-gray-800 ">
 
-          <picture className="flex justify-center items-center max-w-[10%] min-h-[80%] ">
-            <img src={logo} alt="Jesus Camino de Vida" className="w-[50%]" />
+          <picture className="flex justify-center items-center max-w-[100px] min-h-[80%">
+            <img src={logo} alt="Jesus Camino de Vida" className="w-[70%]" />
           </picture>
           
         {/* <div className="">   Para un menu Responsive  */}
