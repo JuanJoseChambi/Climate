@@ -1,4 +1,5 @@
-import logo from "../../assets/logoJCDVPNG.png"
+import logo from "../../assets/LandingPage/logoJCDVPNG.png"
+import header from "../../assets/LandingPage/header.png"
 
 
 function LandingPage() {
@@ -25,15 +26,15 @@ function LandingPage() {
 
       </nav>
 
-      <section className="area flex flex-row justify-between py-28">
+      <section className="area flex flex-row justify-between py-28 flex-wrap">
 
-        <article className="w-[40%]">
-          <h1 className="text-6xl font-black py-5">Congregate</h1>
-          <p className="font-regular">Bienvenidos a nuestra comunidad de fe, un lugar donde la gracia y el amor de Cristo se manifiestan en cada rincón. En nuestra iglesia evangélica, creemos que la fe en Jesucristo es la fuente de toda esperanza y transformación. Aquí, te invitamos a un viaje de descubrimiento espiritual, a encontrar un propósito más profundo en la vida y a construir relaciones significativas con Dios y con los demás.</p>
+        <article className="w-[560px] flex-grow">
+          <h1 className=" text-6xl font-black">Bienvenidos al</h1>
+          <p className="font-regular py-6">Bienvenidos a nuestra comunidad de fe, un lugar donde la gracia y el amor de Cristo se manifiestan en cada rincón. En nuestra iglesia evangélica, creemos que la fe en Jesucristo es la fuente de toda esperanza y transformación. Aquí, te invitamos a un viaje de descubrimiento espiritual, a encontrar un propósito más profundo en la vida y a construir relaciones significativas con Dios y con los demás.</p>
         </article>
 
-        <picture className="flex justify-center w-[45%] ">
-          <img src={logo} alt="" />
+        <picture className="flex justify-center items-center flex-grow w-[500px]">
+          <img src={header} alt="Jesus camino de vida" className="w-[450px]" />
         </picture>
 
       </section>
