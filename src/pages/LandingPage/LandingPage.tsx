@@ -1,6 +1,6 @@
 import logo from "../../assets/LandingPage/logoJCDVPNG.png"
 import header from "../../assets/LandingPage/header.png"
-import { useRef, useState } from "react"
+import { useState } from "react"
 
 
 function LandingPage() {
@@ -37,7 +37,7 @@ function LandingPage() {
 
         </nav>
 
-        <section className="area flex flex-row justify-between py-10 sm:py-16 flex-wrap bg-lime-500">
+        <section className="area flex flex-row justify-between py-10 sm:pb-40 sm:pt-10 flex-wrap ">
 
           <article className="w-[560px] flex-grow">
             <h1 className="flex justify-center items-center text-5xl  font-black min-h-[200px] " onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
@@ -53,15 +53,32 @@ function LandingPage() {
         </section>
 
       </header>
-      <main>
+      <main className="bg-neutral-800">
+        <div className="area flex flex-row justify-between py-16 ">
 
-        <picture>
-          <img src="" alt="" />
-        </picture>
+          <section className="flex justify-center items-center flex-col w-[45%] text-slate-100 ">
 
-        <section className="w-screen bg-neutral-800 text-slate-100">
-          <article>
-            hola
+            <article className="text-5xl font-bold pb-10">
+              <h2 >Sobre Nosotros</h2>
+            </article>
+
+            <picture className="flex justify-center items-center w-[85%]">
+            <img src={header} alt="" className="w-[90%]" />
+            </picture>
+
+
+          </section>
+
+          <section className="flex justify-center items-center  w-[55%] ">
+            <article className="text-slate-100">
+              <p>En Jesús Camino de Vida, creemos en seguir a Jesús como el Camino, la Verdad y la Vida. Nuestra iglesia se basa en la profunda convicción de que Jesucristo es el Salvador y Redentor del mundo. Estamos comprometidos a ser portadores de esperanza y amor en un mundo que a menudo necesita ambas cosas con desesperación.</p>
+            </article>
+          </section>
+            
+        </div>
+        <section>
+          <article className="text-white">
+            Hola como va todo
           </article>
         </section>
 
