@@ -15,7 +15,7 @@ function LandingPage() {
 
   return (
     <>
-      <header className="flex flex-col h-screen w-screen justify-start items-center ">
+      <header>
 
         <nav className="area h-20 flex justify-between items-center text-gray-800 ">
 
@@ -54,14 +54,17 @@ function LandingPage() {
 
       </header>
       <main>
+
         <picture>
           <img src="" alt="" />
         </picture>
-        <section>
+
+        <section className="w-screen bg-neutral-800 text-slate-100">
           <article>
-          
+            hola
           </article>
         </section>
+
       </main>
     </>
   )
