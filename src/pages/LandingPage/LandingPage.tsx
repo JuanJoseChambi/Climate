@@ -43,7 +43,7 @@ function LandingPage() {
             <h1 className="flex justify-center items-center text-5xl  font-black min-h-[200px] " onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 {hovered ? "Bienvenido a Jesús Camino de Vida: Donde la Fe Encuentra un Hogar." : "Encuentra Tu Camino en Jesús: Únete a Nuestra Comunidad." }
             </h1>
-            <p className="font-regular ">Bienvenidos a nuestra comunidad de fe, un lugar donde la gracia y el amor de Cristo se manifiestan en cada rincón. En nuestra iglesia evangélica, creemos que la fe en Jesucristo es la fuente de toda esperanza y transformación. Aquí, te invitamos a un viaje de descubrimiento espiritual, a encontrar un propósito más profundo en la vida y a construir relaciones significativas con Dios y con los demás.</p>
+            <p className="font-regular">Bienvenidos a nuestra comunidad de fe, un lugar donde la gracia y el amor de Cristo se manifiestan en cada rincón. En nuestra iglesia evangélica, creemos que la fe en Jesucristo es la fuente de toda esperanza y transformación. Aquí, te invitamos a un viaje de descubrimiento espiritual, a encontrar un propósito más profundo en la vida y a construir relaciones significativas con Dios y con los demás.</p>
           </article>
 
           <picture className="flex justify-center items-center flex-grow w-[500px]">
@@ -53,32 +53,34 @@ function LandingPage() {
         </section>
 
       </header>
-      <main className="bg-neutral-800">
-        <div className="area flex flex-row justify-between py-16 ">
+      <main>
+        <div className="w-screen bg-neutral-800">
+          <div className="area flex flex-row justify-between py-16">
 
-          <section className="flex justify-center items-center flex-col w-[45%] text-slate-100 ">
+            <section className="flex justify-center items-center flex-col w-[45%] text-slate-100">
 
-            <article className="text-5xl font-bold pb-10">
-              <h2 >Sobre Nosotros</h2>
-            </article>
+              <article className="text-5xl font-bold pb-10">
+                <h2 >Sobre Nosotros</h2>
+              </article>
 
-            <picture className="flex justify-center items-center w-[85%]">
-            <img src={header} alt="" className="w-[90%]" />
-            </picture>
+              <picture className="flex justify-center items-center w-[85%]">
+              <img src={header} alt="" className="w-[90%]" />
+              </picture>
 
 
-          </section>
+            </section>
 
-          <section className="flex justify-center items-center  w-[55%] ">
-            <article className="text-slate-100">
-              <p>En Jesús Camino de Vida, creemos en seguir a Jesús como el Camino, la Verdad y la Vida. Nuestra iglesia se basa en la profunda convicción de que Jesucristo es el Salvador y Redentor del mundo. Estamos comprometidos a ser portadores de esperanza y amor en un mundo que a menudo necesita ambas cosas con desesperación.</p>
-            </article>
-          </section>
-            
+            <section className="flex justify-center items-center  w-[55%] ">
+              <article className="text-white font-semibold">
+                <p>En Jesús Camino de Vida, creemos en seguir a Jesús como el Camino, la Verdad y la Vida. Nuestra iglesia se basa en la profunda convicción de que Jesucristo es el Salvador y Redentor del mundo. Estamos comprometidos a ser portadores de esperanza y amor en un mundo que a menudo necesita ambas cosas con desesperación.</p>
+              </article>
+            </section>
+
+          </div>
         </div>
-        <section className="area pb-10">
-          <h2 className="text-white text-5xl font-bold py-5">Nuestros Servicios</h2>
-          <article className="flex justify-center items-center flex-col text-white ">
+        <section className="area flex justify-center items-center flex-col py-32 text-center">
+          <h2 className="text-5xl font-bold py-5">Nuestros Servicios</h2>
+          <article className="flex justify-center items-center flex-col w-[80%] font-regular">
             <p>
             Nuestros servicios dominicales son el núcleo de nuestra comunidad. Cada domingo, nos reunimos para adorar a Dios a través de la música, la oración y el estudio de las Escrituras. Es un momento de reflexión y comunión, donde todos son bienvenidos, independientemente de su trasfondo o creencias anteriores.
             </p><br/>
