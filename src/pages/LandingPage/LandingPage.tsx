@@ -76,7 +76,8 @@ function LandingPage() {
           </section>
             
         </div>
-        <section className="area">
+        <section className="area pb-10">
+          <h2 className="text-white text-5xl font-bold py-5">Nuestros Servicios</h2>
           <article className="flex justify-center items-center flex-col text-white ">
             <p>
             Nuestros servicios dominicales son el núcleo de nuestra comunidad. Cada domingo, nos reunimos para adorar a Dios a través de la música, la oración y el estudio de las Escrituras. Es un momento de reflexión y comunión, donde todos son bienvenidos, independientemente de su trasfondo o creencias anteriores.
