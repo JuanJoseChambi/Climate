@@ -76,9 +76,14 @@ function LandingPage() {
           </section>
             
         </div>
-        <section>
-          <article className="text-white">
-            Hola como va todo
+        <section className="area">
+          <article className="flex justify-center items-center flex-col text-white ">
+            <p>
+            Nuestros servicios dominicales son el núcleo de nuestra comunidad. Cada domingo, nos reunimos para adorar a Dios a través de la música, la oración y el estudio de las Escrituras. Es un momento de reflexión y comunión, donde todos son bienvenidos, independientemente de su trasfondo o creencias anteriores.
+            </p><br/>
+            <p>
+            En nuestras reuniones dominicales, experimentarás la presencia de Dios en un ambiente de adoración inspiradora. Nuestros mensajes y enseñanzas están diseñados para ser relevantes para tu vida diaria, brindándote orientación y consuelo en tu camino espiritual.
+            </p>
           </article>
         </section>
 
