@@ -93,7 +93,7 @@ function LandingPage() {
               Nuestros servicios dominicales son el núcleo de nuestra comunidad. Cada domingo, nos reunimos para adorar a Dios a través de la música, la oración y el estudio de las Escrituras. Es un momento de reflexión y comunión, donde todos son bienvenidos, independientemente de su trasfondo o creencias anteriores.
               </p>
             </article>
-            <section className=" relative flex flex-wrap justify-evenly items-center flex-row  w-[100%]">
+            <section className="relative flex flex-wrap justify-evenly items-center flex-row  w-[100%]">
               <Cards img={encuentros} title="ENCUENTROS" text="Encuentros de 3 días: Únete a nosotros en un retiro espiritual de tres días, donde profundizamos en lecciones de vida y reflexiones inspiradoras. Descubre un espacio de renovación espiritual y crecimiento personal mientras compartimos experiencias y fortalecemos nuestra fe en comunidad."/>
               <Cards img={ayunos} title="AYUNOS" text="Noche de Ayunos: Te invitamos a unirse a nuestra comunidad en una noche de ayuno y oración. Durante este tiempo especial, experimentarás predicaciones inspiradoras, compartirás palabras de sabiduría y escucharás testimonios impactantes. Un momento para fortalecer tu conexión con Dios y tu comunidad" />
               <Cards img={escuelas} title="ESCUELAS " text="Escuela Cristiana para Todas las Edades: Nuestra escuela cristiana ofrece una variedad de cursos de educación cristiana para todas las edades. Al completar estos cursos, recibirás un diploma que reconoce tus logros en el crecimiento espiritual. ¡Únete a nosotros en este emocionante viaje de aprendizaje y fe!" />
@@ -123,12 +123,17 @@ function LandingPage() {
             <img src={david} alt="" className="min-w-[110%]"/>
           </picture>
           <article className="w-2/3 text-center font-bold text-sm">
-            <p>En Jesús Camino de Vida, nuestros valores fundamentales son el Amor, la Fe, la Esperanza y el Servicio. Creemos que el amor es el vínculo que une a nuestra comunidad, la fe es la base de nuestra relación con Dios, la esperanza nos impulsa hacia adelante y el servicio nos lleva a amar y ayudar a los demás.</p>
+            <p>"En Jesús Camino de Vida, vivimos por estos valores: Amor, Fe, Esperanza y Servicio. Como dice 1 Corintios 13:13, 'Ahora permanecen la fe, la esperanza y el amor, estos tres; pero el mayor de ellos es el amor'. Nos inspiramos en estos principios para construir una comunidad basada en el amor y el servicio a los demás."</p>
           </article>
-          <article className="w-full font-bold text-sm my-16 text-center flex justify-between items-start">
-              <p className="w-[45%]">¿Listo para unirte a nuestra comunidad? ¡Esperamos ansiosos darte la bienvenida y compartir este viaje de fe contigo! Si deseas saber más, asistir a un servicio o participar en nuestras actividades, ¡no dudes en ponerte en contacto con nosotros hoy mismo!</p>
-              <p className="w-[45%]">En Jesús Camino de Vida, creemos que no importa de dónde vengas, aquí encontrarás amor, apoyo y un propósito que trasciende las circunstancias. ¡Te invitamos a dar el paso y ser parte de nuestra comunidad de fe!</p>
+
+            <article className="relative w-full font-bold text-sm my-16 text-center flex justify-between items-center flex-col lg:flex-row lg:items-start">
+              <p className="w-full lg:w-[520px]">¿Listo para unirte a nuestra comunidad? ¡Esperamos ansiosos darte la bienvenida y compartir este viaje de fe contigo! Si deseas saber más, asistir a un servicio o participar en nuestras actividades, ¡no dudes en ponerte en contacto con nosotros hoy mismo!</p>
+              <picture className="flex justify-center items-center w-[80px] my-5 lg:my-0">
+                <img src={logo} alt="" className="w-full" />
+              </picture>
+              <p className="w-full lg:w-[520px]">En Jesús Camino de Vida, creemos que no importa de dónde vengas, aquí encontrarás amor, apoyo y un propósito que trasciende las circunstancias. ¡Te invitamos a dar el paso y ser parte de nuestra comunidad de fe!</p>
             </article>
+
         </section>
         
       </main>
