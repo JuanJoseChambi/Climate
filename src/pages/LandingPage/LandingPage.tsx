@@ -93,7 +93,7 @@ function LandingPage() {
 
         </div>
 
-          <section className="area flex justify-center items-center flex-col py-0 text-center my-20">
+          <section className="area flex justify-center items-center flex-col py-0 text-center my-14">
             <h2 className="text-6xl font-bold py-5">Nuestros Servicios</h2>
             <article className="flex justify-center items-center flex-col w-[80%] font-semibold text-neutral-600">
               <p>
@@ -110,11 +110,11 @@ function LandingPage() {
 
         
 
-        <section className="area flex flex-col justify-center items-center pb-14">
+        <section className="area flex flex-col justify-center items-center pb-14 text-gray-700">
           <picture className="flex justify-center items-center w-[200px] h-[200px] bg-red-500 my-5 rounded-full overflow-hidden border-[5px] border-solid border-[#31759C] border-b-[#061A43] border-r-[#061A43]" >
             <img src={david} alt="" className="min-w-[110%]"/>
           </picture>
-          <article className="w-2/3 text-center font-bold text-sm text-neutral-600">
+          <article className="w-2/3 text-center font-bold text-sm">
             <p>"En Jesús Camino de Vida, vivimos por estos valores: Amor, Fe, Esperanza y Servicio. Como dice 1 Corintios 13:13, 'Ahora permanecen la fe, la esperanza y el amor, estos tres; pero el mayor de ellos es el amor'. Nos inspiramos en estos principios para construir una comunidad basada en el amor y el servicio a los demás."</p>
           </article>
 
@@ -129,8 +129,45 @@ function LandingPage() {
         </section>
         
       </main>
-      <footer>
-        
+      <footer className="bg-[#3C3D41]">
+        <section className="area p-16">
+
+          <article>
+
+            <picture>
+              <img src={logo} alt="" />
+            </picture>
+
+            <h2> da</h2>
+
+          </article>
+
+          <article>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </article>
+
+          <article>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </article>
+
+          <article>
+            <h3></h3>
+            <p></p>
+            <p></p>
+            <p></p>
+          </article>
+
+        </section>
       </footer>
     </>
   )

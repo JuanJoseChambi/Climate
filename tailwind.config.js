@@ -19,6 +19,7 @@ export default {
       },
       textColor:{
         "blue-light":"#31759C",
+        "blue-night":"#061A43"
       }
 
     },
