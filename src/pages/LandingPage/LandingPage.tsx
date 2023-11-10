@@ -1,7 +1,10 @@
 import logo from "../../assets/LandingPage/logoJCDVPNG.png"
 import header from "../../assets/LandingPage/header.png"
+import escuelas from "../../assets/LandingPage/1Img.jpg"
+import encuentros from "../../assets/LandingPage/2Img.jpg"
+import ayunos from "../../assets/LandingPage/4Img.jpg"
 import { useState } from "react"
-
+import Cards from "../../components/Cards/cards"
 
 function LandingPage() {
   const [hovered, setHovered] = useState(true)
@@ -78,18 +81,19 @@ function LandingPage() {
 
           </div>
         </div>
-        <section className="area flex justify-center items-center flex-col py-32 text-center">
+        <section className="area flex justify-center items-center flex-col py-32 text-center ">
           <h2 className="text-5xl font-bold py-5">Nuestros Servicios</h2>
           <article className="flex justify-center items-center flex-col w-[80%] font-regular">
             <p>
             Nuestros servicios dominicales son el núcleo de nuestra comunidad. Cada domingo, nos reunimos para adorar a Dios a través de la música, la oración y el estudio de las Escrituras. Es un momento de reflexión y comunión, donde todos son bienvenidos, independientemente de su trasfondo o creencias anteriores.
-            </p><br/>
-            <p>
-            En nuestras reuniones dominicales, experimentarás la presencia de Dios en un ambiente de adoración inspiradora. Nuestros mensajes y enseñanzas están diseñados para ser relevantes para tu vida diaria, brindándote orientación y consuelo en tu camino espiritual.
             </p>
           </article>
+          <section className="flex justify-evenly items-center flex-row  w-[100%] ">
+            <Cards img={encuentros} text="Encuentros de 3 días: Únete a nosotros en un retiro espiritual de tres días, donde profundizamos en lecciones de vida y reflexiones inspiradoras. Descubre un espacio de renovación espiritual y crecimiento personal mientras compartimos experiencias y fortalecemos nuestra fe en comunidad." title="Encuentros"/>
+            <Cards img={ayunos} text="Noche de Ayunos: Te invitamos a unirse a nuestra comunidad en una noche de ayuno y oración. Durante este tiempo especial, experimentarás predicaciones inspiradoras, compartirás palabras de sabiduría y escucharás testimonios impactantes. Un momento para fortalecer tu conexión con Dios y tu comunidad" title="Ayunos"/>
+            <Cards img={escuelas} text="Escuela Cristiana para Todas las Edades: Nuestra escuela cristiana ofrece una variedad de cursos de educación cristiana para todas las edades. Al completar estos cursos, recibirás un diploma que reconoce tus logros en el crecimiento espiritual. ¡Únete a nosotros en este emocionante viaje de aprendizaje y fe!" title="Escuelas "/>
+          </section>
         </section>
-
       </main>
     </>
   )
