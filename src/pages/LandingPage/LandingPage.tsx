@@ -101,7 +101,7 @@ function LandingPage() {
         </section>
 
         <section className="area flex flex-col justify-center items-center py-14">
-          <picture className="flex justify-center items-center w-[200px] h-[200px] bg-red-500 my-5 rounded-full overflow-hidden" >
+          <picture className="flex justify-center items-center w-[200px] h-[200px] bg-red-500 my-5 rounded-full overflow-hidden border-[5px] border-solid border-[#31759C] border-b-[#061A43] border-r-[#061A43]" >
             <img src={david} alt="" className="min-w-[110%]"/>
           </picture>
           <article className="w-2/3 text-center font-bold text-sm">
