@@ -105,13 +105,13 @@ function LandingPage() {
 
         <section className="area flex flex-wrap flex-row justify-between items-center py-16 ">
 
-          <article className="flex flex-col justify-evenly font-semibold items-start text-start w-[640px] h-[400px]">
+          <article className="flex flex-col justify-evenly font-semibold items-start text-start w-[610px] h-[400px]">
             <h3 className="text-6xl font-bold w-2/3">Eventos y Actividades</h3>
             <p>Nuestra iglesia es un lugar donde la comunidad cobra vida. Ofrecemos una variedad de eventos y actividades para todas las edades y grupos de interés. Desde grupos de estudio bíblico hasta actividades sociales y oportunidades de servicio, hay algo para todos. Aquí, te sentirás parte de algo más grande que tú mismo.</p>
             <p>Participar en nuestras actividades te brindará la oportunidad de fortalecer tu fe, construir amistades significativas y hacer una diferencia en nuestra comunidad local. Creemos que la fe en acción es una parte vital de nuestra vida cristiana.</p>
           </article>
 
-          <picture className="flex flex-col justify-center items-center w-full my-5 bg-red-500 lg:my-0 lg:w-[550px]">
+          <picture className="flex flex-col justify-center items-center w-full my-5 lg:my-0 lg:w-[550px]">
             <img src={cursos} alt=""  className="w-full rounded-xl"/>
             {/* <img src={camping} alt="" className="w-[70%]" /> */}
           </picture>
@@ -125,6 +125,10 @@ function LandingPage() {
           <article className="w-2/3 text-center font-bold text-sm">
             <p>En Jesús Camino de Vida, nuestros valores fundamentales son el Amor, la Fe, la Esperanza y el Servicio. Creemos que el amor es el vínculo que une a nuestra comunidad, la fe es la base de nuestra relación con Dios, la esperanza nos impulsa hacia adelante y el servicio nos lleva a amar y ayudar a los demás.</p>
           </article>
+          <article className="w-full font-bold text-sm my-16 text-center flex justify-between items-start">
+              <p className="w-[45%]">¿Listo para unirte a nuestra comunidad? ¡Esperamos ansiosos darte la bienvenida y compartir este viaje de fe contigo! Si deseas saber más, asistir a un servicio o participar en nuestras actividades, ¡no dudes en ponerte en contacto con nosotros hoy mismo!</p>
+              <p className="w-[45%]">En Jesús Camino de Vida, creemos que no importa de dónde vengas, aquí encontrarás amor, apoyo y un propósito que trasciende las circunstancias. ¡Te invitamos a dar el paso y ser parte de nuestra comunidad de fe!</p>
+            </article>
         </section>
         
       </main>
