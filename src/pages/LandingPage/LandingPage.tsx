@@ -4,7 +4,7 @@ import escuelas from "../../assets/LandingPage/1Img.jpg"
 import encuentros from "../../assets/LandingPage/2Img.jpg"
 import ayunos from "../../assets/LandingPage/4Img.jpg"
 import { useState } from "react"
-import Cards from "../../components/Cards/cards"
+import Cards from "../../components/Cards/Cards"
 
 function LandingPage() {
   const [hovered, setHovered] = useState(true)
@@ -89,9 +89,9 @@ function LandingPage() {
             </p>
           </article>
           <section className="flex justify-evenly items-center flex-row  w-[100%] ">
-            <Cards img={encuentros} text="Encuentros de 3 días: Únete a nosotros en un retiro espiritual de tres días, donde profundizamos en lecciones de vida y reflexiones inspiradoras. Descubre un espacio de renovación espiritual y crecimiento personal mientras compartimos experiencias y fortalecemos nuestra fe en comunidad." title="Encuentros"/>
-            <Cards img={ayunos} text="Noche de Ayunos: Te invitamos a unirse a nuestra comunidad en una noche de ayuno y oración. Durante este tiempo especial, experimentarás predicaciones inspiradoras, compartirás palabras de sabiduría y escucharás testimonios impactantes. Un momento para fortalecer tu conexión con Dios y tu comunidad" title="Ayunos"/>
-            <Cards img={escuelas} text="Escuela Cristiana para Todas las Edades: Nuestra escuela cristiana ofrece una variedad de cursos de educación cristiana para todas las edades. Al completar estos cursos, recibirás un diploma que reconoce tus logros en el crecimiento espiritual. ¡Únete a nosotros en este emocionante viaje de aprendizaje y fe!" title="Escuelas "/>
+            <Cards img={encuentros} title="ENCUENTROS" text="Encuentros de 3 días: Únete a nosotros en un retiro espiritual de tres días, donde profundizamos en lecciones de vida y reflexiones inspiradoras. Descubre un espacio de renovación espiritual y crecimiento personal mientras compartimos experiencias y fortalecemos nuestra fe en comunidad."/>
+            <Cards img={ayunos} title="AYUNOS" text="Noche de Ayunos: Te invitamos a unirse a nuestra comunidad en una noche de ayuno y oración. Durante este tiempo especial, experimentarás predicaciones inspiradoras, compartirás palabras de sabiduría y escucharás testimonios impactantes. Un momento para fortalecer tu conexión con Dios y tu comunidad" />
+            <Cards img={escuelas} title="ESCUELAS " text="Escuela Cristiana para Todas las Edades: Nuestra escuela cristiana ofrece una variedad de cursos de educación cristiana para todas las edades. Al completar estos cursos, recibirás un diploma que reconoce tus logros en el crecimiento espiritual. ¡Únete a nosotros en este emocionante viaje de aprendizaje y fe!" />
           </section>
         </section>
       </main>

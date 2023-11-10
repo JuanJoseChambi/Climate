@@ -3,13 +3,13 @@ import { cardsProps } from "../../interfaces/type.p"
 
 function Cards({img, text, title}: cardsProps) {
   return (
-    <section className="w-[370px] h-[550px] flex justify-center items-center flex-col border border-solid border-black  bg-lime-500"> 
-        <picture className="flex justify-center items-end w-[100%] min-h-[220px] bg-red-400 overflow-hidden rounded-xl">
+    <section className="w-[340px] h-[550px] flex justify-center items-center flex-col rounded-md hover:scale-105 transition-transform duration-300"> 
+        <picture className="flex justify-center items-end w-[90%] h-[300px] max-h-[300px]  overflow-hidden rounded-xl">
             <img src={img} alt="Jesus Camino de Vida" className="w-[95%]"/>
         </picture>
-        <article className="bg-red-500 ">
-            <h3 className="text-2xl font-bold w-[75%]">{title}</h3>
-            <p className="text-center">{text}</p>
+        <article className="">
+            <h3 className="text-2xl font-semibold tracking-widest w-full py-2">{title}</h3>
+            <p className="text-center font-light text-sm">{text}</p>
         </article>
     </section>
   )
