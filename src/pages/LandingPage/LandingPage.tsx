@@ -5,7 +5,7 @@ import encuentros from "../../assets/LandingPage/2Img.jpg"
 import ayunos from "../../assets/LandingPage/4Img.jpg"
 import david from "../../assets/LandingPage/david.png"
 import cursos from "../../assets/LandingPage/actividad6.jpg"
-import camping from "../../assets/LandingPage/actividad3.jpg"
+// import camping from "../../assets/LandingPage/actividad3.jpg"
 
 import { useState } from "react"
 import Cards from "../../components/Cards/Cards"
@@ -103,16 +103,16 @@ function LandingPage() {
           </section>
         </section>
 
-        <section className="area flex flex-row justify-center items-center py-16 ">
+        <section className="area flex flex-wrap flex-row justify-between items-center py-16 ">
 
-          <article className="flex flex-col justify-evenly font-semibold items-start text-start h-[400px]">
-            <h3 className="text-6xl font-bold w-1/2">Eventos y Actividades</h3>
+          <article className="flex flex-col justify-evenly font-semibold items-start text-start w-[640px] h-[400px]">
+            <h3 className="text-6xl font-bold w-2/3">Eventos y Actividades</h3>
             <p>Nuestra iglesia es un lugar donde la comunidad cobra vida. Ofrecemos una variedad de eventos y actividades para todas las edades y grupos de interés. Desde grupos de estudio bíblico hasta actividades sociales y oportunidades de servicio, hay algo para todos. Aquí, te sentirás parte de algo más grande que tú mismo.</p>
             <p>Participar en nuestras actividades te brindará la oportunidad de fortalecer tu fe, construir amistades significativas y hacer una diferencia en nuestra comunidad local. Creemos que la fe en acción es una parte vital de nuestra vida cristiana.</p>
           </article>
 
-          <picture className="flex flex-col justify-center items-center min-w-[50%]">
-            <img src={cursos} alt=""  className="w-[80%] rounded-xl"/>
+          <picture className="flex flex-col justify-center items-center w-full my-5 bg-red-500 lg:my-0 lg:w-[550px]">
+            <img src={cursos} alt=""  className="w-full rounded-xl"/>
             {/* <img src={camping} alt="" className="w-[70%]" /> */}
           </picture>
 
