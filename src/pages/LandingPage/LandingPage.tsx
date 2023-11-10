@@ -61,34 +61,41 @@ function LandingPage() {
 
       </header>
       <main>
-        <section className="w-screen bg-gradient-to-b from-neutral-800 to-[#0f0f0f]">
-          <div className="area flex flex-row justify-between py-16">
+        <div className="w-screen bg-gradient-to-b from-neutral-800 to-[#0f0f0f]">
+          <section className="area flex flex-row justify-between py-16">
 
-            <section className="flex justify-center items-center flex-col w-[45%] text-slate-100">
+          <picture className="flex flex-col justify-center items-center w-full my-5 lg:my-0 lg:w-[550px]">
+            <img src={header} alt="" className="w-[90%]" />
+            </picture>
 
-              <article className="text-6xl font-bold pb-10">
-                <h2 >Sobre Nosotros</h2>
-              </article>
+            <article className="flex flex-col justify-evenly font-extralight items-start text-start w-[610px] h-[400px] text-white">
+                <h3 className="text-6xl font-bold w-3/4">Sobre Nosotros</h3>
+                <p>En Jesús Camino de Vida, cultivamos una fe auténtica basada en la enseñanza central de Juan 14:6: 'Yo soy el camino, la verdad y la vida. Nadie viene al Padre sino por mí'. Este versículo guía nuestras acciones y define nuestra misión de ser un faro de amor y esperanza.</p>
+                <p>En nuestra comunidad, personas de diversas experiencias se congregan con un propósito común: crecer juntas en la luz de Cristo. Creemos en el poder transformador del amor y la enseñanza cristiana. Cada paso que das aquí te acerca más a la plenitud que se encuentra en la fe vivida con autenticidad. ¡Bienvenido a un lugar donde cada historia es parte de un viaje espiritual enriquecedor!</p>
+            </article>
 
-              <picture className="flex justify-center items-center w-[85%]">
-              <img src={header} alt="" className="w-[90%]" />
-              </picture>
+          </section>
+          
+          <section className="area flex flex-wrap flex-row justify-between items-center py-10  ">
 
+            <article className="flex flex-col justify-evenly font-extralight items-start text-start w-[610px] h-[400px] text-white">
+              <h3 className="text-6xl font-bold w-2/3">Eventos y Actividades</h3>
+              <p>Nuestra iglesia es un lugar donde la comunidad cobra vida. Ofrecemos una variedad de eventos y actividades para todas las edades y grupos de interés. Desde grupos de estudio bíblico hasta actividades sociales y oportunidades de servicio, hay algo para todos. Aquí, te sentirás parte de algo más grande que tú mismo.</p>
+              <p>Participar en nuestras actividades te brindará la oportunidad de fortalecer tu fe, construir amistades significativas y hacer una diferencia en nuestra comunidad local. Creemos que la fe en acción es una parte vital de nuestra vida cristiana.</p>
+            </article>
 
-            </section>
+            <picture className="flex flex-col justify-center items-center w-full lg:my-0 lg:w-[550px]">
+              <img src={cursos} alt=""  className="w-full rounded-xl"/>
+              {/* <img src={camping} alt="" className="w-[70%]" /> */}
+            </picture>
 
-            <section className="flex justify-center items-center  w-[55%] ">
-              <article className="text-white font-extralight">
-                <p>En Jesús Camino de Vida, creemos en seguir a Jesús como el Camino, la Verdad y la Vida. Nuestra iglesia se basa en la profunda convicción de que Jesucristo es el Salvador y Redentor del mundo. Estamos comprometidos a ser portadores de esperanza y amor en un mundo que a menudo necesita ambas cosas con desesperación.</p>
-              </article>
-            </section>
+          </section>
 
-            
+        </div>
 
-          </div>
-          <section className="area flex justify-center items-center flex-col py-10 text-center">
-            <h2 className="text-6xl font-bold py-5 text-white">Nuestros Servicios</h2>
-            <article className="flex justify-center items-center flex-col w-[80%] font-extralight text-white">
+          <section className="area flex justify-center items-center flex-col py-0 text-center my-20">
+            <h2 className="text-6xl font-bold py-5">Nuestros Servicios</h2>
+            <article className="flex justify-center items-center flex-col w-[80%] font-semibold text-neutral-600">
               <p>
               Nuestros servicios dominicales son el núcleo de nuestra comunidad. Cada domingo, nos reunimos para adorar a Dios a través de la música, la oración y el estudio de las Escrituras. Es un momento de reflexión y comunión, donde todos son bienvenidos, independientemente de su trasfondo o creencias anteriores.
               </p>
@@ -97,32 +104,17 @@ function LandingPage() {
               <Cards img={encuentros} title="ENCUENTROS" text="Encuentros de 3 días: Únete a nosotros en un retiro espiritual de tres días, donde profundizamos en lecciones de vida y reflexiones inspiradoras. Descubre un espacio de renovación espiritual y crecimiento personal mientras compartimos experiencias y fortalecemos nuestra fe en comunidad."/>
               <Cards img={ayunos} title="AYUNOS" text="Noche de Ayunos: Te invitamos a unirse a nuestra comunidad en una noche de ayuno y oración. Durante este tiempo especial, experimentarás predicaciones inspiradoras, compartirás palabras de sabiduría y escucharás testimonios impactantes. Un momento para fortalecer tu conexión con Dios y tu comunidad" />
               <Cards img={escuelas} title="ESCUELAS " text="Escuela Cristiana para Todas las Edades: Nuestra escuela cristiana ofrece una variedad de cursos de educación cristiana para todas las edades. Al completar estos cursos, recibirás un diploma que reconoce tus logros en el crecimiento espiritual. ¡Únete a nosotros en este emocionante viaje de aprendizaje y fe!" />
-              {/* <i className='absolute right-0 text-5xl bx bx-plus-circle text-white '></i> */}
-              <i className='absolute right-0 text-white text-6xl bx bx-last-page'></i>
+              <i className='absolute right-0 text-6xl bx bx-last-page'></i>
             </section>
           </section>
-        </section>
 
-        <section className="area flex flex-wrap flex-row justify-between items-center py-16 ">
-
-          <article className="flex flex-col justify-evenly font-semibold items-start text-start w-[610px] h-[400px]">
-            <h3 className="text-6xl font-bold w-2/3">Eventos y Actividades</h3>
-            <p>Nuestra iglesia es un lugar donde la comunidad cobra vida. Ofrecemos una variedad de eventos y actividades para todas las edades y grupos de interés. Desde grupos de estudio bíblico hasta actividades sociales y oportunidades de servicio, hay algo para todos. Aquí, te sentirás parte de algo más grande que tú mismo.</p>
-            <p>Participar en nuestras actividades te brindará la oportunidad de fortalecer tu fe, construir amistades significativas y hacer una diferencia en nuestra comunidad local. Creemos que la fe en acción es una parte vital de nuestra vida cristiana.</p>
-          </article>
-
-          <picture className="flex flex-col justify-center items-center w-full my-5 lg:my-0 lg:w-[550px]">
-            <img src={cursos} alt=""  className="w-full rounded-xl"/>
-            {/* <img src={camping} alt="" className="w-[70%]" /> */}
-          </picture>
-
-        </section>
+        
 
         <section className="area flex flex-col justify-center items-center pb-14">
           <picture className="flex justify-center items-center w-[200px] h-[200px] bg-red-500 my-5 rounded-full overflow-hidden border-[5px] border-solid border-[#31759C] border-b-[#061A43] border-r-[#061A43]" >
             <img src={david} alt="" className="min-w-[110%]"/>
           </picture>
-          <article className="w-2/3 text-center font-bold text-sm">
+          <article className="w-2/3 text-center font-bold text-sm text-neutral-600">
             <p>"En Jesús Camino de Vida, vivimos por estos valores: Amor, Fe, Esperanza y Servicio. Como dice 1 Corintios 13:13, 'Ahora permanecen la fe, la esperanza y el amor, estos tres; pero el mayor de ellos es el amor'. Nos inspiramos en estos principios para construir una comunidad basada en el amor y el servicio a los demás."</p>
           </article>
 
@@ -137,6 +129,9 @@ function LandingPage() {
         </section>
         
       </main>
+      <footer>
+        
+      </footer>
     </>
   )
 }
