@@ -131,13 +131,13 @@ function LandingPage() {
       </main>
 
       <footer className="bg-[#3C3D41]">
-        <section className="area relative flex flex-col flex-wrap justify-center items-center py-0 bg-lime-300 md:flex-row lg:items-start">
+        <section className="area relative flex flex-col flex-wrap justify-center items-center py-10  md:flex-row lg:items-start">
 
-          <article className="blockFooter bg-lime-500 border-r-2 border-solid border-neutral-500">
+          <article className="blockFooter  border-r border-solid border-neutral-500">
 
             <div className="w-full h-[75px] flex justify-evenly items-center ">
               <img src={logo} alt="Jesus Camino de Vida" className="w-[25%] cursor-pointer"/>
-              <h2 className="font-bold ">Jesus Camino de Vida</h2>
+              <h2 className="font-bold text-white">Jesus Camino de Vida</h2>
             </div>
 
             <p className="area text-xs text-center font-semibold my-2">En Jesús Camino de Vida, cultivamos la fe, el amor y el crecimiento espiritual. Únete a nuestra comunidad para vivir una experiencia transformadora juntos. ¡Bienvenido a casa!</p>
@@ -145,32 +145,33 @@ function LandingPage() {
 
           </article>
 
-          <nav className="blockFooter justify-evenly font-semibold flex-row border-r-2 border-solid border-neutral-500 bg-red-500">
+          <nav className="blockFooter w-[400px] justify-evenly font-semibold flex-row border-r border-solid border-neutral-500 ">
 
-            <ul className="tracking-widest text-sm">
-              <li>MINISTERIOS</li>
-              <li>PASTORES</li>
-              <li>HORARIOS</li>
-              <li>EVENTOS</li>
-              <li>ACTIVIDADES</li>
+            <ul className="tracking-widest text-sm text-white">
+              <li className="cursor-pointer">MINISTERIOS</li>
+              <li className="cursor-pointer">PASTORES</li>
+              <li className="cursor-pointer">HORARIOS</li>
+              <li className="cursor-pointer">EVENTOS</li>
+              <li className="cursor-pointer">ACTIVIDADES</li>
             </ul>
-            <ul className="text-sm text-gray-600">
-              <li>Sobre Nosotros</li>
-              <li>Eventos </li>
-              <li>Nuestros Servicios</li>
-              <li>Valores</li>
+            <ul className="text-sm text-gray-400">
+              <li className="cursor-pointer">Sobre Nosotros</li>
+              <li className="cursor-pointer">Eventos </li>
+              <li className="cursor-pointer">Nuestros Servicios</li>
+              <li className="cursor-pointer">Valores</li>
             </ul>
           </nav>
 
-          <div className="blockFooter bg-lime-500">
-            <ul>
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li>Twiter</li>
+          <div className="blockFooter w-[200px] justify-center border-r border-solid border-neutral-500">
+            <h2 className="w-[50%] font-bold text-sm mb-2 text-white">SIGUENOS</h2>
+            <ul className="w-[60%] text-sm font-bold text-gray-400">
+              <li className="flex justify-start items-center py-1 cursor-pointer"><i className='mx-3 bx bxl-facebook'></i>Facebook</li>
+              <li className="flex justify-start items-center py-1 cursor-pointer"><i className='mx-3 bx bxl-instagram' ></i>Instagram</li>
+              <li className="flex justify-start items-center py-1 cursor-pointer"><i className='mx-3 bx bxl-twitter' ></i>Twiter</li>
             </ul>
           </div>
 
-          <article className="blockFooter bg-lime-500">
+          <article className="blockFooter ">
             <h3>Contactos</h3>
             <p>jcdv@gmail</p>
             <p>jcdv@gmail</p>
