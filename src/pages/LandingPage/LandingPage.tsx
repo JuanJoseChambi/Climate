@@ -129,43 +129,55 @@ function LandingPage() {
         </section>
         
       </main>
+
       <footer className="bg-[#3C3D41]">
-        <section className="area p-16">
+        <section className="area relative flex flex-col flex-wrap justify-center items-center py-0 bg-lime-300 md:flex-row lg:items-start">
 
-          <article>
+          <article className="blockFooter bg-lime-500 border-r-2 border-solid border-neutral-500">
 
-            <picture>
-              <img src={logo} alt="" />
-            </picture>
+            <div className="w-full h-[75px] flex justify-evenly items-center ">
+              <img src={logo} alt="Jesus Camino de Vida" className="w-[25%] cursor-pointer"/>
+              <h2 className="font-bold ">Jesus Camino de Vida</h2>
+            </div>
 
-            <h2> da</h2>
+            <p className="area text-xs text-center font-semibold my-2">En Jesús Camino de Vida, cultivamos la fe, el amor y el crecimiento espiritual. Únete a nuestra comunidad para vivir una experiencia transformadora juntos. ¡Bienvenido a casa!</p>
+
 
           </article>
 
-          <article>
+          <nav className="blockFooter flex-row bg-lime-500">
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>hola</li>
+              <li>hola</li>
+              <li>hola</li>
+              <li>hola</li>
+              <li>hola</li>
             </ul>
-          </article>
-
-          <article>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>hola</li>
+              <li>hola</li>
+              <li>hola</li>
+              <li>hola</li>
+              <li>hola</li>
             </ul>
+          </nav>
+
+          <div className="blockFooter bg-lime-500">
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Twiter</li>
+            </ul>
+          </div>
+
+          <article className="blockFooter bg-lime-500">
+            <h3>Contactos</h3>
+            <p>jcdv@gmail</p>
+            <p>jcdv@gmail</p>
+            <p>jcdv@gmail</p>
           </article>
 
-          <article>
-            <h3></h3>
-            <p></p>
-            <p></p>
-            <p></p>
-          </article>
+          <p className="absolute bottom-3 text-xs w-full text-center">© 2023 Jesus Camino de Vidaㅤ•ㅤPowered by Juan Jose</p>
 
         </section>
       </footer>

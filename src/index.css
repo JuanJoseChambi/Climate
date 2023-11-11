@@ -12,4 +12,7 @@
     .transitionColor{
         @apply transition-colors duration-500
     }
+    .blockFooter {
+        @apply w-[300px] min-h-[210px] flex flex-col justify-center items-center
+    }
 }
