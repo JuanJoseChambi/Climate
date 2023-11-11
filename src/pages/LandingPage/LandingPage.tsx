@@ -145,20 +145,20 @@ function LandingPage() {
 
           </article>
 
-          <nav className="blockFooter flex-row bg-lime-500">
-            <ul>
-              <li>hola</li>
-              <li>hola</li>
-              <li>hola</li>
-              <li>hola</li>
-              <li>hola</li>
+          <nav className="blockFooter justify-evenly font-semibold flex-row border-r-2 border-solid border-neutral-500 bg-red-500">
+
+            <ul className="tracking-widest text-sm">
+              <li>MINISTERIOS</li>
+              <li>PASTORES</li>
+              <li>HORARIOS</li>
+              <li>EVENTOS</li>
+              <li>ACTIVIDADES</li>
             </ul>
-            <ul>
-              <li>hola</li>
-              <li>hola</li>
-              <li>hola</li>
-              <li>hola</li>
-              <li>hola</li>
+            <ul className="text-sm text-gray-600">
+              <li>Sobre Nosotros</li>
+              <li>Eventos </li>
+              <li>Nuestros Servicios</li>
+              <li>Valores</li>
             </ul>
           </nav>
 
