@@ -200,9 +200,10 @@ function LandingPage() {
       </main>
 
       <footer className="bg-[#3C3D41]">
-        <section className="area relative flex flex-col flex-wrap justify-center items-center py-3  md:flex-row lg:items-center">
-          <article className="blockFooter  border-r border-solid border-neutral-500">
-            <div className="w-full h-[75px] flex justify-evenly items-center ">
+        <section className="relative flex flex-col justify-center items-start lg:area md:flex-row lg:items-center ">
+
+          <article className="w-full px-3 mt-4 h-auto flex flex-col justify-center items-center lg:border-neutral-500 lg:border-r lg:border-solid lg:blockFooter">
+            <div className="w-full lg:w-full lg:h-[75px] flex flex-row justify-evenly items-center ">
               <img
                 src={logo}
                 alt="Jesus Camino de Vida"
@@ -211,14 +212,14 @@ function LandingPage() {
               <h2 className="font-bold text-white">Jesus Camino de Vida</h2>
             </div>
 
-            <p className="area text-xs text-center font-semibold my-2">
+            <p className="text-xs text text-white font-semibold my-2">
               En Jesús Camino de Vida, cultivamos la fe, el amor y el
               crecimiento espiritual. Únete a nuestra comunidad para vivir una
               experiencia transformadora juntos. ¡Bienvenido a casa!
             </p>
           </article>
 
-          <nav className="blockFooter w-[400px] justify-evenly flex-row border-r border-solid border-neutral-500 ">
+          <nav className="flex flex-wrap flex-row justify-between items-center w-full px-3 mt-5 lg:blockFooter lg:w-[400px] lg:justify-evenly lg:flex-row lg:border-r lg:border-solid lg:border-neutral-500 ">
             <ul className="tracking-widest font-bold text-sm text-white">
               <li className="cursor-pointer">MINISTERIOS</li>
               <li className="cursor-pointer">PASTORES</li>
@@ -234,7 +235,7 @@ function LandingPage() {
             </ul>
           </nav>
 
-          <div className="blockFooter w-[200px] justify-center border-r border-solid border-neutral-500">
+          <div className="w-full flex flex-col items-center justify-center mt-5 lg:blockFooter lg:w-[200px]  lg:border-r lg:border-solid lg:border-neutral-500">
             <h2 className="w-[50%] font-bold text-xs mb-2 text-white tracking-widest">SIGUENOS CONTACTOS</h2>
             <ul className="w-[60%] text-sm font-semibold text-gray-400">
               <li className="flex justify-start items-center py-1 cursor-pointer">
@@ -255,9 +256,8 @@ function LandingPage() {
             </ul>
           </div>
 
-          <article className="blockFooter">
+          <article className="w-full flex flex-col justify-center items-center mt-5 mb-12 lg:blockFooter">
             <h3 className="w-[50%] font-bold text-xs text-center mb-2 text-white tracking-widest">UBICACION</h3>
-            {/* <div> */}
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.223239329873!2d-58.44592996147663!3d-34.64342569323505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb3ca1a4e5a1%3A0x15c3c16c41a7391d!2sJESUS%20camino%20de%20vida!5e0!3m2!1ses!2sar!4v1699822741495!5m2!1ses!2sar"
                 width="280"
@@ -267,10 +267,9 @@ function LandingPage() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
-            {/* </div>      */}
           </article>
 
-          <p className="absolute right-0 text-xs w-full text-center">© 2023 Jesus Camino de Vidaㅤ•ㅤPowered by Juan Jose</p>
+          <p className="absolute bottom-2 w-full text-[8px] text-center text-slate-200">© 2023 Jesus Camino de Vidaㅤ•ㅤPowered by Juan Jose</p>
         </section>
       </footer>
     </>
