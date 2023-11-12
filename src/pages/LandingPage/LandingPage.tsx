@@ -83,10 +83,10 @@ function LandingPage() {
           <section className="area flex flex-wrap flex-row justify-around items-center">
 
             <picture className="flex flex-col justify-center items-center w-full my-10 order-2 lg:w-[450px] lg:order-1">
-              <img src={nosotros} alt="" className="w-[90%] lg:w-full rounded-xl shadow-lg shadow-black" />
+              <img src={nosotros} alt="" loading="lazy" className="w-[90%] lg:w-full rounded-xl shadow-lg shadow-black" />
             </picture>
 
-            <article className="w-full flex flex-col justify-evenly font-extralight items-start text-start lg:w-[630px] h-auto text-white my-10">
+            <article className="w-full flex flex-col justify-evenly font-extralight items-start text-start h-auto text-white my-10 order-2 lg:order-1 lg:w-[630px]">
               <h3 className="text-6xl font-bold w-3/4">Sobre Nosotros</h3><br/>
               <p>
                 En Jesús Camino de Vida, cultivamos una fe auténtica basada en
@@ -130,8 +130,8 @@ function LandingPage() {
               </p>
             </article>
 
-            <picture className="flex flex-col justify-center items-center w-full my-5 lg:w-[550px]">
-              <img src={cursos} alt="" className="w-[90%] rounded-xl shadow-lg shadow-black" />
+            <picture className="flex flex-col justify-center items-center w-full my-10 lg:w-[550px]">
+              <img src={cursos} alt="" loading="lazy" className="w-[90%] rounded-xl shadow-lg shadow-black" />
             </picture>
           </section>
 
@@ -170,7 +170,7 @@ function LandingPage() {
 
         <section className="area flex flex-col justify-center items-center pb-14 text-gray-700">
           <picture className="flex justify-center items-center w-[200px] h-[200px] bg-red-500 my-5 rounded-full overflow-hidden border-[5px] border-solid border-[#31759C] border-b-[#061A43] border-r-[#061A43]">
-            <img src={david} alt="" className="min-w-[110%]" />
+            <img src={david} alt="" loading="lazy" className="min-w-[110%]" />
           </picture>
           <article className="w-2/3 text-center font-bold text-sm">
             <p>
@@ -192,7 +192,7 @@ function LandingPage() {
               mismo!
             </p>
             <picture className="flex justify-center items-center w-[80px] order my-5 order-1 lg:order-2 lg:my-0">
-              <img src={logo} alt="" className="w-full" />
+              <img src={logo} alt="" loading="lazy" className="w-full" />
             </picture>
             <p className="w-full mt-10 lg:w-[520px] lg:mt-0 order-3">
               En Jesús Camino de Vida, creemos que no importa de dónde vengas,
@@ -213,6 +213,7 @@ function LandingPage() {
                 src={logo}
                 alt="Jesus Camino de Vida"
                 className="w-[25%] cursor-pointer"
+                loading="lazy"
               />
               <h2 className="font-bold text-white">Jesus Camino de Vida</h2>
             </div>
