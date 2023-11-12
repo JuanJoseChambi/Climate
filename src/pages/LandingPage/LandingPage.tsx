@@ -77,9 +77,11 @@ function LandingPage() {
         </section>
       </header>
       <main>
-        <div className="w-screen bg-gradient-to-b from-neutral-800 to-[#0f0f0f]">
-          <section className="area flex flex-row justify-between py-16">
-            <picture className="flex flex-col justify-center items-center w-full my-5 lg:my-0 lg:w-[550px]">
+        <section className="w-screen bg-gradient-to-b from-neutral-800 to-[#0f0f0f]">
+
+          <section className="area flex flex-wrap flex-row justify-between py-16">
+
+            <picture className="flex flex-col justify-center items-center w-full lg:my-0 lg:w-[550px]">
               <img src={header} alt="" className="w-[90%]" />
             </picture>
 
@@ -106,7 +108,7 @@ function LandingPage() {
 
           <section className="area flex flex-wrap flex-row justify-between items-center py-10  ">
             <article className="flex flex-col justify-evenly font-extralight items-start text-start w-[610px] h-[400px] text-white">
-              <h3 className="text-6xl font-bold w-2/3">
+              <h3 className="text-6xl font-bold w-3/4">
                 Eventos y Actividades
               </h3>
               <p>
@@ -130,7 +132,7 @@ function LandingPage() {
               {/* <img src={camping} alt="" className="w-[70%]" /> */}
             </picture>
           </section>
-        </div>
+        </section>
 
         <section className="area flex justify-center items-center flex-col py-0 text-center my-14">
           <h2 className="text-6xl font-bold py-5">Nuestros Servicios</h2>
@@ -200,7 +202,7 @@ function LandingPage() {
       </main>
 
       <footer className="bg-[#3C3D41]">
-        <section className="relative flex flex-col justify-center items-start lg:area md:flex-row lg:items-center ">
+        <section className="relative flex flex-col justify-center items-start lg:area sm:flex-row lg:items-center ">
 
           <article className="w-full px-3 mt-4 h-auto flex flex-col justify-center items-center lg:border-neutral-500 lg:border-r lg:border-solid lg:blockFooter">
             <div className="w-full lg:w-full lg:h-[75px] flex flex-row justify-evenly items-center ">
