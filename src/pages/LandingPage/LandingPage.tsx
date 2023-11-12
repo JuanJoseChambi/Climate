@@ -5,6 +5,7 @@ import encuentros from "../../assets/LandingPage/2Img.jpg";
 import ayunos from "../../assets/LandingPage/4Img.jpg";
 import david from "../../assets/LandingPage/david.png";
 import cursos from "../../assets/LandingPage/actividad6.jpg";
+import nosotros from "../../assets/LandingPage/Nosotros.jpg";
 // import camping from "../../assets/LandingPage/actividad3.jpg"
 
 import { useState } from "react";
@@ -77,23 +78,23 @@ function LandingPage() {
         </section>
       </header>
       <main>
-        <section className="w-screen bg-gradient-to-b from-neutral-800 to-[#0f0f0f]">
+        <section className=" bg-gradient-to-b from-neutral-800 to-[#0f0f0f]">
+          {/* SOBRE NOSOTROS */}
+          <section className="area flex flex-wrap flex-row justify-around items-center">
 
-          <section className="area flex flex-wrap flex-row justify-between py-16">
-
-            <picture className="flex flex-col justify-center items-center w-full lg:my-0 lg:w-[550px]">
-              <img src={header} alt="" className="w-[90%]" />
+            <picture className="flex flex-col justify-center items-center w-full my-10 order-2 lg:w-[450px] lg:order-1">
+              <img src={nosotros} alt="" className="w-[90%] lg:w-full rounded-xl shadow-lg shadow-black" />
             </picture>
 
-            <article className="flex flex-col justify-evenly font-extralight items-start text-start w-[610px] h-[400px] text-white">
-              <h3 className="text-6xl font-bold w-3/4">Sobre Nosotros</h3>
+            <article className="w-full flex flex-col justify-evenly font-extralight items-start text-start lg:w-[630px] h-auto text-white my-10">
+              <h3 className="text-6xl font-bold w-3/4">Sobre Nosotros</h3><br/>
               <p>
                 En Jesús Camino de Vida, cultivamos una fe auténtica basada en
                 la enseñanza central de Juan 14:6: 'Yo soy el camino, la verdad
                 y la vida. Nadie viene al Padre sino por mí'. Este versículo
                 guía nuestras acciones y define nuestra misión de ser un faro de
                 amor y esperanza.
-              </p>
+              </p><br/>
               <p>
                 En nuestra comunidad, personas de diversas experiencias se
                 congregan con un propósito común: crecer juntas en la luz de
@@ -106,11 +107,13 @@ function LandingPage() {
             </article>
           </section>
 
-          <section className="area flex flex-wrap flex-row justify-between items-center py-10  ">
-            <article className="flex flex-col justify-evenly font-extralight items-start text-start w-[610px] h-[400px] text-white">
+          {/* EVENTOS Y ACTIVIDADES */}
+          <section className="area flex flex-wrap flex-row justify-around items-center">
+
+            <article className="w-full flex flex-col justify-evenly font-extralight items-start text-start lg:w-[610px] my-10 auto text-white">
               <h3 className="text-6xl font-bold w-3/4">
                 Eventos y Actividades
-              </h3>
+              </h3><br/>
               <p>
                 Nuestra iglesia es un lugar donde la comunidad cobra vida.
                 Ofrecemos una variedad de eventos y actividades para todas las
@@ -118,7 +121,7 @@ function LandingPage() {
                 hasta actividades sociales y oportunidades de servicio, hay algo
                 para todos. Aquí, te sentirás parte de algo más grande que tú
                 mismo.
-              </p>
+              </p><br/>
               <p>
                 Participar en nuestras actividades te brindará la oportunidad de
                 fortalecer tu fe, construir amistades significativas y hacer una
@@ -127,11 +130,11 @@ function LandingPage() {
               </p>
             </article>
 
-            <picture className="flex flex-col justify-center items-center w-full lg:my-0 lg:w-[550px]">
-              <img src={cursos} alt="" className="w-full rounded-xl" />
-              {/* <img src={camping} alt="" className="w-[70%]" /> */}
+            <picture className="flex flex-col justify-center items-center w-full my-5 lg:w-[550px]">
+              <img src={cursos} alt="" className="w-[90%] rounded-xl shadow-lg shadow-black" />
             </picture>
           </section>
+
         </section>
 
         <section className="area flex justify-center items-center flex-col py-0 text-center my-14">
@@ -181,17 +184,17 @@ function LandingPage() {
           </article>
 
           <article className="relative w-full font-bold text-sm my-16 text-center flex justify-between items-center flex-col lg:flex-row lg:items-start">
-            <p className="w-full lg:w-[520px]">
+            <p className="w-full lg:w-[520px] order-2 lg:order-1">
               ¿Listo para unirte a nuestra comunidad? ¡Esperamos ansiosos darte
               la bienvenida y compartir este viaje de fe contigo! Si deseas
               saber más, asistir a un servicio o participar en nuestras
               actividades, ¡no dudes en ponerte en contacto con nosotros hoy
               mismo!
             </p>
-            <picture className="flex justify-center items-center w-[80px] my-5 lg:my-0">
+            <picture className="flex justify-center items-center w-[80px] order my-5 order-1 lg:order-2 lg:my-0">
               <img src={logo} alt="" className="w-full" />
             </picture>
-            <p className="w-full lg:w-[520px]">
+            <p className="w-full mt-10 lg:w-[520px] lg:mt-0 order-3">
               En Jesús Camino de Vida, creemos que no importa de dónde vengas,
               aquí encontrarás amor, apoyo y un propósito que trasciende las
               circunstancias. ¡Te invitamos a dar el paso y ser parte de nuestra
