@@ -206,6 +206,7 @@ function LandingPage() {
 
       <footer className="bg-[#3C3D41]">
         <section className="relative flex flex-col justify-center items-start lg:area lg:flex-row lg:items-center ">
+
           <div className="flex w-full flex-col sm:flex-row">
             <article className="w-full px-3 mt-4 h-auto flex flex-col justify-center items-center lg:border-neutral-500 lg:border-r lg:border-solid lg:blockFooter">
               <div className="w-full lg:w-full lg:h-[75px] flex flex-row justify-evenly items-center ">
@@ -243,7 +244,7 @@ function LandingPage() {
           </div>
          
           
-          <div className="flex w-full flex-col sm:flex:row lg:flex-row">
+          <div className="flex w-full flex-col sm:flex-row">
             <div className="w-full flex flex-col items-center justify-center mt-5 lg:blockFooter lg:w-[200px]  lg:border-r lg:border-solid lg:border-neutral-500">
               <h2 className="w-[50%] font-bold text-xs mb-2 text-white tracking-widest">SIGUENOS CONTACTOS</h2>
               <ul className="w-[60%] text-sm font-semibold text-gray-400">
