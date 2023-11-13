@@ -86,7 +86,7 @@ function LandingPage() {
               <img src={nosotros} alt="" loading="lazy" className="w-[90%] lg:w-full rounded-xl shadow-lg shadow-black" />
             </picture>
 
-            <article className="w-full flex flex-col justify-evenly font-extralight items-start text-start h-auto text-white my-10 order-2 lg:order-1 lg:w-[630px]">
+            <article className="w-full flex flex-col justify-evenly font-extralight items-start text-start h-auto text-white my-10 order-1 lg:order-2 lg:w-[630px]">
               <h3 className="text-6xl font-bold w-3/4">Sobre Nosotros</h3><br/>
               <p>
                 En Jesús Camino de Vida, cultivamos una fe auténtica basada en
