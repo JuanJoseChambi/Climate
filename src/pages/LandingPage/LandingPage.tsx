@@ -205,75 +205,80 @@ function LandingPage() {
       </main>
 
       <footer className="bg-[#3C3D41]">
-        <section className="relative flex flex-col justify-center items-start lg:area sm:flex-row lg:items-center ">
+        <section className="relative flex flex-col justify-center items-start lg:area lg:flex-row lg:items-center ">
+          <div className="flex w-full flex-col sm:flex-row">
+            <article className="w-full px-3 mt-4 h-auto flex flex-col justify-center items-center lg:border-neutral-500 lg:border-r lg:border-solid lg:blockFooter">
+              <div className="w-full lg:w-full lg:h-[75px] flex flex-row justify-evenly items-center ">
+                <img
+                  src={logo}
+                  alt="Jesus Camino de Vida"
+                  className="w-[25%] cursor-pointer"
+                  loading="lazy"
+                />
+                <h2 className="font-semibold text-white">Jesus Camino de Vida</h2>
+              </div>
 
-          <article className="w-full px-3 mt-4 h-auto flex flex-col justify-center items-center lg:border-neutral-500 lg:border-r lg:border-solid lg:blockFooter">
-            <div className="w-full lg:w-full lg:h-[75px] flex flex-row justify-evenly items-center ">
-              <img
-                src={logo}
-                alt="Jesus Camino de Vida"
-                className="w-[25%] cursor-pointer"
-                loading="lazy"
-              />
-              <h2 className="font-bold text-white">Jesus Camino de Vida</h2>
+              <p className="text-xs text text-white font-light my-2">
+                En Jesús Camino de Vida, cultivamos la fe, el amor y el
+                crecimiento espiritual. Únete a nuestra comunidad para vivir una
+                experiencia transformadora juntos. ¡Bienvenido a casa!
+              </p>
+            </article>
+
+            <nav className="flex flex-wrap flex-row justify-around items-center w-full px-3 mt-5 lg:blockFooter lg:w-[400px] lg:justify-evenly lg:flex-row lg:border-r lg:border-solid lg:border-neutral-500 ">
+              <ul className="tracking-widest font-bold text-sm text-white">
+                <li className="cursor-pointer my-3">MINISTERIOS</li>
+                <li className="cursor-pointer my-3">PASTORES</li>
+                <li className="cursor-pointer my-3">HORARIOS</li>
+                <li className="cursor-pointer my-3">EVENTOS</li>
+                <li className="cursor-pointer my-3">ACTIVIDADES</li>
+              </ul>
+              <ul className="text-sm font-semibold text-gray-400">
+                <li className="cursor-pointer">Sobre Nosotros</li>
+                <li className="cursor-pointer">Eventos </li>
+                <li className="cursor-pointer">Nuestros Servicios</li>
+                <li className="cursor-pointer">Valores</li>
+              </ul>
+            </nav>
+          </div>
+         
+          
+          <div className="flex w-full flex-col sm:flex:row lg:flex-row">
+            <div className="w-full flex flex-col items-center justify-center mt-5 lg:blockFooter lg:w-[200px]  lg:border-r lg:border-solid lg:border-neutral-500">
+              <h2 className="w-[50%] font-bold text-xs mb-2 text-white tracking-widest">SIGUENOS CONTACTOS</h2>
+              <ul className="w-[60%] text-sm font-semibold text-gray-400">
+                <li className="flex justify-start items-center py-1 cursor-pointer">
+                  <i className="mx-3 bx bxl-facebook"></i>Facebook
+                </li>
+                <li className="flex justify-start items-center py-1 cursor-pointer">
+                  <i className="mx-3 bx bxl-instagram"></i>Instagram
+                </li>
+                <li className="flex justify-start items-center py-1 cursor-pointer">
+                  <i className="mx-3 bx bxl-twitter"></i>Twiter
+                </li>
+                <li className="flex justify-start items-center py-1 cursor-pointer">
+                  <i className="mx-3 bx bxl-whatsapp"></i>Whatsapp
+                </li>
+                <li className="flex justify-start items-center py-1 cursor-pointer">
+                  <i className="mx-3 bx bxl-gmail"></i>Gmail
+                </li>
+              </ul>
             </div>
 
-            <p className="text-xs text text-white font-semibold my-2">
-              En Jesús Camino de Vida, cultivamos la fe, el amor y el
-              crecimiento espiritual. Únete a nuestra comunidad para vivir una
-              experiencia transformadora juntos. ¡Bienvenido a casa!
-            </p>
-          </article>
-
-          <nav className="flex flex-wrap flex-row justify-between items-center w-full px-3 mt-5 lg:blockFooter lg:w-[400px] lg:justify-evenly lg:flex-row lg:border-r lg:border-solid lg:border-neutral-500 ">
-            <ul className="tracking-widest font-bold text-sm text-white">
-              <li className="cursor-pointer my-3">MINISTERIOS</li>
-              <li className="cursor-pointer my-3">PASTORES</li>
-              <li className="cursor-pointer my-3">HORARIOS</li>
-              <li className="cursor-pointer my-3">EVENTOS</li>
-              <li className="cursor-pointer my-3">ACTIVIDADES</li>
-            </ul>
-            <ul className="text-sm font-semibold text-gray-400">
-              <li className="cursor-pointer">Sobre Nosotros</li>
-              <li className="cursor-pointer">Eventos </li>
-              <li className="cursor-pointer">Nuestros Servicios</li>
-              <li className="cursor-pointer">Valores</li>
-            </ul>
-          </nav>
-
-          <div className="w-full flex flex-col items-center justify-center mt-5 lg:blockFooter lg:w-[200px]  lg:border-r lg:border-solid lg:border-neutral-500">
-            <h2 className="w-[50%] font-bold text-xs mb-2 text-white tracking-widest">SIGUENOS CONTACTOS</h2>
-            <ul className="w-[60%] text-sm font-semibold text-gray-400">
-              <li className="flex justify-start items-center py-1 cursor-pointer">
-                <i className="mx-3 bx bxl-facebook"></i>Facebook
-              </li>
-              <li className="flex justify-start items-center py-1 cursor-pointer">
-                <i className="mx-3 bx bxl-instagram"></i>Instagram
-              </li>
-              <li className="flex justify-start items-center py-1 cursor-pointer">
-                <i className="mx-3 bx bxl-twitter"></i>Twiter
-              </li>
-              <li className="flex justify-start items-center py-1 cursor-pointer">
-                <i className="mx-3 bx bxl-whatsapp"></i>Whatsapp
-              </li>
-              <li className="flex justify-start items-center py-1 cursor-pointer">
-                <i className="mx-3 bx bxl-gmail"></i>Gmail
-              </li>
-            </ul>
+            <article className="w-full flex flex-col justify-center items-center mt-5 mb-12 lg:blockFooter">
+              <h3 className="w-[50%] font-bold text-xs text-center mb-2 text-white tracking-widest">UBICACION</h3>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.223239329873!2d-58.44592996147663!3d-34.64342569323505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb3ca1a4e5a1%3A0x15c3c16c41a7391d!2sJESUS%20camino%20de%20vida!5e0!3m2!1ses!2sar!4v1699822741495!5m2!1ses!2sar"
+                  width="280"
+                  height="200"
+                  style={{ border: "0" }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </article>
           </div>
-
-          <article className="w-full flex flex-col justify-center items-center mt-5 mb-12 lg:blockFooter">
-            <h3 className="w-[50%] font-bold text-xs text-center mb-2 text-white tracking-widest">UBICACION</h3>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.223239329873!2d-58.44592996147663!3d-34.64342569323505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb3ca1a4e5a1%3A0x15c3c16c41a7391d!2sJESUS%20camino%20de%20vida!5e0!3m2!1ses!2sar!4v1699822741495!5m2!1ses!2sar"
-                width="280"
-                height="200"
-                style={{ border: "0" }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-          </article>
+            
 
           <p className="absolute bottom-2 w-full text-[8px] text-center text-slate-200">© 2023 Jesus Camino de Vidaㅤ•ㅤPowered by Juan Jose</p>
         </section>
