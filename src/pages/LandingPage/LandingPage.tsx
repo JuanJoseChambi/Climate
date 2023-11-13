@@ -227,11 +227,11 @@ function LandingPage() {
 
           <nav className="flex flex-wrap flex-row justify-between items-center w-full px-3 mt-5 lg:blockFooter lg:w-[400px] lg:justify-evenly lg:flex-row lg:border-r lg:border-solid lg:border-neutral-500 ">
             <ul className="tracking-widest font-bold text-sm text-white">
-              <li className="cursor-pointer">MINISTERIOS</li>
-              <li className="cursor-pointer">PASTORES</li>
-              <li className="cursor-pointer">HORARIOS</li>
-              <li className="cursor-pointer">EVENTOS</li>
-              <li className="cursor-pointer">ACTIVIDADES</li>
+              <li className="cursor-pointer my-3">MINISTERIOS</li>
+              <li className="cursor-pointer my-3">PASTORES</li>
+              <li className="cursor-pointer my-3">HORARIOS</li>
+              <li className="cursor-pointer my-3">EVENTOS</li>
+              <li className="cursor-pointer my-3">ACTIVIDADES</li>
             </ul>
             <ul className="text-sm font-semibold text-gray-400">
               <li className="cursor-pointer">Sobre Nosotros</li>
